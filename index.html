@@ -1,0 +1,40 @@
+<html>
+    <head>
+       
+        <title>
+
+        </title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    </head>
+    <body>
+        <div style=" border-radius: 5%; margin-top:80px; margin-bottom: 50px; margin-left: 350px; margin-right: 350px; border:50px solid #0277bd; background-color:#0277bd;">
+            <button type="button" class="btn btn-primary" style="margin-top: -20px; border:1px;">Todo List</button>
+            <br>
+            <br>
+            <br>
+
+            <input  type="text" id="todo" placeholder="Enter todo"/>
+            <button class="btn btn-success" onclick="addtodo() "> Add</button>&nbsp;
+            <button  class="btn btn-danger" onclick="delall()"> Delete All</button>
+       
+         <br>
+         <br>
+
+            <ol id="list"></ol>
+        </div>
+        
+        <style>
+            
+            input{
+                border:1px;
+            }
+            
+            body{
+                text-align: center;
+            }
+        </style>
+      
+        
+        <script src="todo.js"></script>
+    </body>
+</html>
